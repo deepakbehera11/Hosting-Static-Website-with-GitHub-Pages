@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #212121; 
+}
+#container{
+    height: 100vh;
+    display: flex;
+    /* background-color: aqua; */
+    
+}
+.left-container{
+    width: 252px;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+
+}
+.icon img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color:#2b2b2b ;
+    
+}
+.left-nav{
+    padding: 10px;
+
+}
+.left-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.History{
+    padding: 15px;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-color: rgb(66, 66, 66) rgba(0, 0, 0, 0);
+
+}
+.History-Item {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: background 0.2s ease;
+    font-size: 14px;
+    font-family: ui-sans-serif, -apple-system, system-ui;
+    padding: 8px;
+}
+.History-Item:hover{
+    background-color: #2b2b2b;
+    border-radius: 5px;
+}
+.History-Item img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.Today{
+    color: #999;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.right-container{
+    width: 1109px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #212121;
+    /* background-color: #fff; */
+}
+.right-Nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px solid #2b2b2b; */
+    justify-content: space-between;
+}
+.gpt-button{
+    padding: 8px 12px;
+    color: #b4b4b4;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: ui-sans-serif, -apple-system, system-ui,;
+    transition: background 0.3s ease;
+}
+.gpt-button:hover{
+    
+    background-color: #2f2f2f;
+}
+.user-icon i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.Middle{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Middle-Heading{
+    margin-bottom: 30px;
+}
+
+.Search-container{
+    width: 768px;
+    background-color: #fff;
+    padding: 12px;
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    
+}
+.search-box input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #B4B4B4;
+    font-size: 16px;
+    font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    outline: none;
+}
+.Search-Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+    
+}
+.Search-Icon img {
+    width: 14px;
+    height: 20px;
+    cursor: pointer;
+}
+.icon-xl-heavy max-md:hidden{
+    color: #fff;
+}
+.send-icon{
+    background-color: #676767;
+    border-radius: 50%;
+    padding: 6px;
+}
+.send-icon img{
+    width: 26px;
+    height: 22px;
+    cursor: pointer;
+}
+.FourBox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: #fff; */
+}
+.Box{
+    margin-top: 20px;
+    display: flex;
+    border: #333 1px solid;
+    border-radius: 50px;
+    padding: 15px;
+    color: #9b9b9b;
+    font-size: 14px;
+    cursor:pointer;
+    transition: background 0.3s ease;
+
+}
+.Box:hover{
+    background-color:#2f2f2f ;
+}
+.box1 i{
+    color: #35ae47;
+    margin-right: 10px;
+
+
+}
+.box2 i{
+    color: #76d0eb;
+    margin-right: 10px;
+}
+
+.box3 i{
+    color: #cb8bd0;
+    margin-right: 10px;
+    
+}
+
+.box4 i{
+    color: #76d0eb;
+    margin-right: 10px;
+}
+.Bottom-line{
+   text-align: center;
+   color: #b4b4b4;
+   font-size: 12px;
+   font-family: ui-sans-serif, -apple-system, system-ui;
+   padding: 8px;
+}
